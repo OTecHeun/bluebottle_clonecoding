@@ -1,6 +1,7 @@
 # [클론코딩] Blue Bottle Coffee
 
-![aesop](https://user-images.githubusercontent.com/104907318/184521811-1343a5e6-f4c4-482c-a3f8-16e0065c60f7.png)
+![bluebottle_top](https://user-images.githubusercontent.com/104907318/184521999-587892a1-6493-4186-ab88-ef572e04fc09.png)
+<img width="115" alt="bluebottle_bottom" src="https://user-images.githubusercontent.com/104907318/184522005-ee4fb8c8-3059-49cb-ac78-54e6c0ff6193.png">
 
 **요약** :
 
