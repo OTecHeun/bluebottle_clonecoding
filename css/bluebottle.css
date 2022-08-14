@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+html,body{
+    text-size-adjust:none;
+    font-size: 16px;
+    font-family: 'Noto Sans kr',sans-serif;
+}
+a{display: block};
+body{overflow-x: hidden;}
+
+/* header */
+.header{
+    background-color: #242424;
+    height: 70px;
+    position: relative;
+}
+.header h1{
+    height: 70px;width: 150px;margin: auto;text-indent: -9999px;font-size: 0;background: url(../img/icon/text-logo.png) no-repeat center;background-size: auto 31px;
+}
+.header h1 a{height: 100%;}
+
+.header .home-btn{
+    text-indent: -9999px;width: 36px;height: 34px;
+    background: url(../img/icon/toplogo.png) no-repeat center / 12px auto;
+    position: absolute;left: 20px;top: 18px;
+}
+
+.header .menu-btn{
+    text-indent: -9999px;width: 46px;height: 46px;
+    background: url(../img/icon/menu-btn.png) no-repeat center / 29px auto;
+    position: absolute;right: 16px;top: 12px;
+}
+.main-banner li{
+    position: relative;
+}
+.main-banner li img{
+    width: 100%;
+}
+
+.main-banner li a{
+    position: absolute;
+    width: 38.055vw;height: 10.277vw;
+    background-color: #fff;
+    text-align: center;line-height: 37px;
+    bottom: 17.777vw;left: 50%;transform: translateX(-50%);
+    font-size: 3.88vw;line-height: 10.277vw;
+}
+.subscribe-area{
+    padding: 12.22vw 0;
+}
+.subscribe-area .subscribe-title{
+    font-size: 4.44vw;color: #36373b;
+    text-align: center;
+    line-height: 1.79;
+    margin-bottom: 3.888vw;
+    text-align: center;
+}
+
+.subscribe-area .subscribe-list li{
+    text-align: center;
+    margin-bottom: 3.3333vw;
+}
+
+.subscribe-area .subscribe-list li img{
+    width: 73.888vw;
+}
+
+.subscribe-area .subscribe_btn{
+    width: 64.7222vw;
+    height: 16,389vw; 
+    font-size: 4.444vw;
+    text-align: center;
+    color: #fff;
+    background-color: #36373b;
+    line-height: 16.389vw;
+    margin: 5.55vw auto 0;
+}
+/* 메뉴영역 */
+.menu-area{
+    background: url(../img/menu-bg.png) no-repeat top center / cover;
+    padding: 16.111vw 4.444vw 14.722vw;
+}
+
+.menu-area .menu-title {
+    color: #fff;
+    text-align: center;
+    font-size: 8.055vw;
+    padding-top: 4.44vw;
+    position: relative;
+}
+.menu-area .menu-title::before{
+    content: '';display: block;
+    position: absolute;
+    top: 0;left: 50%;transform: translateX(-50%);
+    background-color: #1da4d9;
+    width: 10.833vw;height: 1.389vw;
+}
+.menu-area .menu-title-sub{
+    color: #1da4d9;
+    text-align: center;
+    margin-top: 3.889vw;
+    font-size: 3.889vw;
+    margin-bottom: 8.889vw;
+}
+
+.menu-area .menu-list>li{
+    float: left;
+    width: calc(50% - 4.5px);
+}
+.menu-area .menu-list>li:nth-child(2n+1){margin-right: 4.5px;}
+.menu-area .menu-list>li:nth-child(2n){margin-left: 4.5px;}
+.menu-area .menu-list>li img{width: 100%;}
+.menu-area .menu-list>li span{display: block;}
+.menu-area .menu-list>li .menu-thum-txt{
+    text-align: center;
+    color: #a1a1a1;
+    padding: 3.889vw 0;
+}
+.menu-area .menu-list>li .menu-thum-txt strong{
+
+    color: #fff;
+    display: block;
+}
+.menu-area .menu-allview-btn{
+    margin: auto;
+    color: #fff;
+    border: 1px solid #464646;
+    background-color: #1da4d9;
+    width: 45.55vw;height: 13.35vw;
+    margin-top: 11.66vw;line-height: 13.35vw;
+    font-size: 3.6vw;text-align: center;
+}
+/* 베스트 메뉴 */
+.best-area{position:relative; background-color: #ebebeb;padding-top: 9.418vw;padding-bottom: 6.944vw}
+
+.best-title{
+    font-size: 5.556vw;color: #36373b;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 11.667vw;
+    margin-bottom: 4.155vw;
+    position: relative;
+    padding-top: 4.444vw;
+}
+.best-area .best-title::before{
+    content: '';display: block;
+    top:0px; left:0px;
+    position: absolute;
+    background-color: #36373b;
+    width: 10.833vw;height: 1.389vw;
+}
+.best-title-sub{
+  margin-bottom: 4.626vw;
+  margin-left: 11.357vw;
+  font-size: 3.324vw;
+  line-height: 4.626vw;
+  text-align: left;
+  color: #5e6068;
+}
+.best-list li{
+    text-align: center;
+    margin: 0 4.389vw;
+    background-color: #fff;
+}
+
+.best-list li img{
+    width: 100%;
+}
+.best-list-content{
+    padding: 4.444vw 8.333vw 6.111vw;
+    margin: 4.167vw 0vw;
+}
+.best-list li a{
+    margin-bottom: 4.167vw;
+    font-size: 5.278vw;color: #4b4e54;
+    font-weight: bold;
+    text-align: left;
+}
+.best-list li span{
+    display: block;
+    font-size: 2.778vw;color: #4b4e54;
+    text-align: left;
+    line-height: 1.65;
+}
+.best-circle-area {
+    padding: 6.944vw 38.889vw 7.778vw;
+}
+.best-circle {
+    display: block;
+    margin-left: 4vw;
+    width: 4.444vw;
+    height: 4.444vw;
+    border-radius: 50%;
+    background-color: #ddd;
+    float: left;
+    box-sizing: border-box;
+}
+.best-circle:nth-child(1){
+    margin-left: -4.444vw;
+    background-color: #fff;
+}
+.best-circle-1{background-color: #fff;}
+/* 커피매치 */
+.coffe-match{
+    padding: 5.536vw 4.444vw 5.536vw;
+    background-color: #242424;
+}
+.match-text{background-color: #fff;padding-bottom: 5.536vw;}
+.coffe-match img{
+    width: 100%;
+    padding-bottom: 9.516vw;
+}
+.match-title{
+    margin: 5.536vw 6.574vw 5.017vw;
+    font-size: 10.278vw;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    color: #575756;
+}
+.match-title-sub{
+  margin-bottom: 7.093vw;
+  font-size: 3.611vw;
+  line-height: 1.19;
+  text-align: center;
+  color: #575756; 
+}
+.question-btn{
+    width: 46.944vw;
+    height: 15.833vw;
+    font-size: 4.306vw;
+    line-height: 15.833vw;
+    color: #fff;
+    text-align: center;
+    background-color: #00a1df;
+    margin: auto;
+}
+/* 매장위치 */
+.find-cafe{background-color: #fff;}
+.big-title .find-title{
+    margin: 8.611vw 10.833vw 8.889vw;
+    font-size: 8vw;
+    font-weight: 500;
+    text-align: center;
+    color: #00a1df;
+  }
+.big-title .find-sub-title{
+    margin: 0 13.889vw 8.611vw;
+    font-size: 4.2vw;color: #666;
+    font-weight: 500;
+    text-align: center;
+}
+.store{
+    padding: 8.611vw 4.167vw 8.611vw;
+}
+.store dt span{
+    margin-left: 6.444vw;
+    background-color: #afafaf;
+    height: 8.056vw;
+    font-size: 4.2vw;font-weight: bold;color: #fff;
+    line-height: 8.056vw;
+    text-align: left;
+    padding: 1.667vw 2.5vw;
+}
+.store-list::before,
+.time-store-list::before{
+    content: '';display: block;
+    height: 4.444vw;width: 0.556vw;
+    background-color: #666;
+    position: absolute;
+    left: 13.444vw;
+}
+.dd::before{content:none;}
+.store-list {
+    display: inline-block;
+    margin: 4.167vw 0 8.889vw 6.444vw;
+    font-size: 3.611vw;color: #666;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+}
+.time-store-list{
+    display: inline-block;
+    margin: 4.167vw 0 0 6.444vw;
+    font-size: 3.611vw;color: #666;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+}
+.time-store-list:nth-child(4){margin-bottom: 10.833vw;}
+.question-btn-store{
+    width: 46.944vw;
+    height: 15.833vw;
+    font-size: 4.306vw;
+    line-height: 15.833vw;
+    color: #fff;
+    text-align: center;
+    background-color: #00a1df;
+    margin: auto;
+    margin-top: 10.833vw;
+    margin-bottom: 13.333vw;
+}
+.store img{width: 100%;margin-bottom: 6.667vw;}
+/* 개인정보 */
+.pric{background-color: #00a1df;text-align: center;padding: 2.222vw;}
+.pric span a{display: inline-block;color: #fff;font-size: 3.333vw;line-height: 1.29; border-right: 1px solid #fff;padding-right:10px;margin-right: 10px;}
+.pric span a:last-child{border: 0;}
+/* 가이드 */
+.guid{background-color: #4d4d4d;}
+.guid-store{
+    display: block;
+    padding: 8.889vw 3.056vw 11.389vw 4.444vw;
+}
+.guid-title{float: left;}
+.guid-title:nth-child(1){margin-right: 4.4vw;}
+.guid-title:nth-child(2){margin-right: 3.7vw;}
+.guid-store .guid-title div{
+    font-size: 3.889vw;color:#9bcbde;font-weight: bold;
+    margin-bottom: 9.444vw;
+}
+.guid-store .guid-title .guid-inner
+{padding-bottom: 9.444vw;}
+
+.guid-store .guid-title li{
+    font-size: 3.333vw;color:#fff;font-weight: normal;line-height: 6.889vw;
+}
+/* reserve */
+.reserved{
+    background-color: #222222;color:#fff;
+    height: 8.333vw;
+    text-align: center;
+    line-height: 8.333vw;
+}
